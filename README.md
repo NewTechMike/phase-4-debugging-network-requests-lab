@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+ Used 'console' and 'network' tabs to see that their was an unitialized constant which was "Toys" instead of "Toy"
 
 - Update the number of likes for a toy
 
   - How I debugged:
+ Used 'byebug' to check the params. Found that params[:likes] was needed to update
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+Added the 'rescue' command
